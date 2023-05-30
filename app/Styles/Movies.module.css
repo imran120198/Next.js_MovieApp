@@ -1,0 +1,43 @@
+.movies_container {
+  height: 100vh;
+  text-align: center;
+}
+
+.search {
+  margin-bottom: 50px;
+}
+
+.search > input {
+  height: 50px;
+  width: 30%;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.search > button {
+  height: 50px;
+  margin-left: 10px;
+  width: 100px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.mapData_button {
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: auto;
+}
+
+.movieData_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+}
+
+.mapData {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+}
