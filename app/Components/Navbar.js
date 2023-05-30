@@ -5,11 +5,10 @@ import styles from "../Styles/Navbar.module.css";
 const Navbar = () => {
   return (
     <div className={styles.navbar_container}>
-      <div>MovieFlex</div>
+      <div>Movieflex</div>
       <div>
         <Link href="/">Home</Link>
         <Link href="/movies">Movie</Link>
-        <Link href="/contact">Contact Us</Link>
       </div>
     </div>
   );

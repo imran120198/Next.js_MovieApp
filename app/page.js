@@ -1,3 +1,5 @@
+`use client`;
+
 import Homepage from "./Components/Homepage";
 import styles from "./page.module.css";
 

@@ -35,7 +35,7 @@ const page = () => {
       <div className={styles.movieData_container}>
         {data?.map((elem) => {
           return (
-            <div className={styles.mapData}>
+            <div key={elem.imdbID} className={styles.mapData}>
               <Image
                 src={elem.Poster}
                 alt={elem.Title}
@@ -43,7 +43,7 @@ const page = () => {
                 width={350}
               />
               <h2>{elem.Title}</h2>
-              <Link href={`/movies/${elem.id}`}>
+              <Link href={`/movies/${elem.imdbID}`}>
                 <button className={styles.mapData_button}>Read More</button>
               </Link>
             </div>

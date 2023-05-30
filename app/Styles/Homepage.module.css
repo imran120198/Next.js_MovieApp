@@ -1,0 +1,20 @@
+.homepage {
+  background-image: url("https://images.unsplash.com/photo-1615414047026-802692414b79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 680px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage > p {
+  font-size: 150px;
+}
+
+.singlepage{
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
